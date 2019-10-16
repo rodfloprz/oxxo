@@ -1,0 +1,13 @@
+Configuraciones Service EndPoints
+
+Adapters
+POJO
+com.wm.pkg.art.ns.ARTNSService
+baseInvoke
+Split POJO Transactions
+toString().split(:).[1].split(\").[0].split( TPE).[0]
+
+Wrappers
+com.wm.app.b2b.server.FlowSvcImpl
+baseInvoke
+toString().split(" ")
